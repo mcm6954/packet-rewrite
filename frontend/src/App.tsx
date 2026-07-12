@@ -1,11 +1,14 @@
-import './App.css'
+import Profile from "./pages/Profile"
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
 
   return (
-    <>
-      <h1>Packet!</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
