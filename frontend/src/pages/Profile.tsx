@@ -1,7 +1,9 @@
+import Navbar from "../Navbar"
+
 function Profile() {
     return (
         <div>
-            <button className="btn btn-primary">Placeholder</button>
+            <Navbar></Navbar>
         </div>
     )
 }
